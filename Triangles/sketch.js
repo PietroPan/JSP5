@@ -5,10 +5,10 @@ function setup() {
 }
 
 function draw() {
-  background(96, 161, 231);
+  background(255);
   ang = slider.value();
   stroke(107, 53, 10);
-  fill(204);
+  fill(0);
   translate(400,400);
   triang(0,0,-17,30,17,30,ang);
 }
